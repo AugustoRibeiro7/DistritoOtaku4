@@ -1,7 +1,7 @@
 /* =========================GERAL=============================================*/
 
 *{
-    
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
     width: 100%;
     line-height: 1;
     min-height: 100vh;
-    box-sizing: border-box;
 }
 
 /* =======================CABEÇALHO=============================================*/
@@ -171,7 +170,7 @@ li u {
 	justify-content: flex-end;
 	background: dimgrey;
 	padding: 3%;
-	width: 94%;
+	width: 100%;
 	align-items: center;
 }
 
