@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 100%;
+    width: 100%;
     line-height: 1;
     min-height: 100vh;
 }
@@ -155,6 +155,7 @@ article {
     font-size: 18px;
     color: grey;
     line-height: 1cm;
+    list-style-type: none;
 }
 
 .lista-membro:before {
