@@ -112,10 +112,10 @@ form {
 
 main {
     background-image: url(img/fundo2.png), url(img/fundo1.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: 100% 0%, 0% 0%;
-    background-size: 13% 100%, 13% 100%;
-    background-attachment: fixed;
+	background-repeat: no-repeat, no-repeat;
+	background-position: 100% 0%, 0% 0%;
+	background-size: 13% 100%, 13% 100%;
+	background-attachment: fixed;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -134,8 +134,8 @@ article {
 #titulo-central {
     text-align: center;
     font-size: 31px;
-    margin-top: 0;
-    padding: 1%;
+	margin-top: 0;
+	padding: 1%;
 }
 
 #titulo-trailer {
@@ -154,13 +154,10 @@ article {
 #lista {
     font-size: 18px;
     color: grey;
-    line-height: 1cm;
-    list-style-type: none;
+	line-height: 1cm;
+    list-style-type: disc;
+    margin-left: 3%;
 }
-
-.lista-membro:before {
-	content: "✦";
-	margin-right: 2%;
 
 li u {
     color: black ;
